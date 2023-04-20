@@ -410,7 +410,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ATMEGA_Kitchen_Timer.kicad_pro",
+    "filename": "Phase_B_ATMEGA_v3.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -446,7 +446,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "step/ATMEGA_Kitchen_Timer.step",
+      "step": "step/ATMEGA_Kitchen_Timer.STEP",
       "vrml": ""
     },
     "page_layout_descr_file": ""
