@@ -67,11 +67,11 @@
       (plotinvisibletext false)
       (sketchpadsonfab false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 3)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerber/")
+      (outputdirectory "plots/")
     )
   )
 
@@ -616,6 +616,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "/Users/chrisnodine/Downloads/LIB_PTS125SM43SMTR21M_LFS/PTS125SM43SMTR21M_LFS/3D/PTS125SM43SMTR21M_LFS.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
+    )
   )
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
@@ -767,6 +772,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "/Users/chrisnodine/Downloads/LIB_PTS125SM43SMTR21M_LFS/PTS125SM43SMTR21M_LFS/3D/PTS125SM43SMTR21M_LFS.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -1457,6 +1467,11 @@
     (pad "3" smd rect (at -3 1.85 180) (size 1 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 16 "RST") (pintype "passive") (tstamp 59195c94-2e37-4630-ba84-d0c9ed25dd28))
     (pad "4" smd rect (at 3 1.85 180) (size 1 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f5fe56fe-990f-40b6-b531-f23eb8a626e4))
+    (model "/Users/chrisnodine/Downloads/LIB_PTS526_SK15_SMTR2_LFS/PTS526_SK15_SMTR2_LFS/3D/PTS526_SK15_SMTR2_LFS.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
@@ -2479,9 +2494,9 @@
     (pad "6" thru_hole oval (at -2.54 5.08 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 7534f2ea-9677-43b2-997d-98ab4d2fd800))
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x03_P2.54mm_Vertical.wrl"
-      (offset (xyz 0 0 0))
+      (offset (xyz -2.5 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 180 0))
     )
   )
 
