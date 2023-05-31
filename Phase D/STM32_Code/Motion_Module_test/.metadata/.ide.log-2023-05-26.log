@@ -1,0 +1,12 @@
+2023-05-26 17:00:22,640 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] ***WARNING: Display must be created on main thread due to Cocoa restrictions. Use vmarg -XstartOnFirstThread
+2023-05-26 17:01:47,894 [INFO] Activator:176 - 
+
+
+2023-05-26 17:01:47,895 [INFO] Activator:177 - !SESSION log4j initialized
+2023-05-26 17:01:51,148 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2023-05-26 17:01:52,123 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-05-26 17:01:53,716 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-05-26 17:02:14,616 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-05-26 17:02:14,617 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-05-26 17:02:14,617 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-05-26 17:04:02,837 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] ***WARNING: Display must be created on main thread due to Cocoa restrictions. Use vmarg -XstartOnFirstThread

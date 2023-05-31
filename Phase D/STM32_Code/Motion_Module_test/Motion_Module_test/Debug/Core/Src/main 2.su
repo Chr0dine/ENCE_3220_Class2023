@@ -1,0 +1,9 @@
+../Core/Src/main.c:81:5:main	16	static
+../Core/Src/main.c:154:6:SystemClock_Config	88	static
+../Core/Src/main.c:200:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:234:13:MX_TIM2_Init	32	static
+../Core/Src/main.c:279:13:MX_GPIO_Init	56	static
+../Core/Src/main.c:441:6:getAccelAverage	16	static
+../Core/Src/main.c:457:5:AccelDataEqual	16	static
+../Core/Src/main.c:465:6:HAL_GPIO_EXTI_Callback	16	static
+../Core/Src/main.c:483:6:Error_Handler	4	static

@@ -1,0 +1,29 @@
+16:07:52 **** Incremental Build of configuration Debug for project Motion_Module_test ****
+make -j15 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'AccelDataEqual':
+../Core/Src/main.c:461:6: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  461 |  if((abs(abs(gTempYAccelData)-abs(gYAccelData))>=200) && ((gTempXAccelData !=0)&& (gTempYAccelData !=0) && (gTempZAccelData !=0))){
+      |      ^~~
+../Core/Src/main.c:461:14: warning: 'abs' argument 1 promotes to 'double' where 'int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  461 |  if((abs(abs(gTempYAccelData)-abs(gYAccelData))>=200) && ((gTempXAccelData !=0)&& (gTempYAccelData !=0) && (gTempZAccelData !=0))){
+      |              ^~~~~~~~~~~~~~~
+<built-in>: note: built-in 'abs' declared here
+../Core/Src/main.c:461:35: warning: 'abs' argument 1 promotes to 'double' where 'int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  461 |  if((abs(abs(gTempYAccelData)-abs(gYAccelData))>=200) && ((gTempXAccelData !=0)&& (gTempYAccelData !=0) && (gTempZAccelData !=0))){
+      |                                   ^~~~~~~~~~~
+<built-in>: note: built-in 'abs' declared here
+arm-none-eabi-gcc -o "Motion_Module_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/chrisnodine/Desktop/Embedded Systems Programming/STM Software/Motion_Module_test/Motion_Module_test/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Motion_Module_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Motion_Module_test.elf
+ 
+arm-none-eabi-size   Motion_Module_test.elf 
+arm-none-eabi-objdump -h -S  Motion_Module_test.elf  > "Motion_Module_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  38492	    152	   3648	  42292	   a534	Motion_Module_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: Motion_Module_test.list
+ 
+
+16:07:53 Build Finished. 0 errors, 3 warnings. (took 622ms)
+

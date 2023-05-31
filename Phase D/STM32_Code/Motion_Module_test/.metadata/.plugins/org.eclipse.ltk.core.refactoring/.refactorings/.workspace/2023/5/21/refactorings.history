@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Motion_Module_test/Drivers/STM32F4xx_HAL_Driver/MPU6050_STM32F4_Drivers&apos;" deleteContents="false" description="Delete resource &apos;Motion_Module_test/Drivers/STM32F4xx_HAL_Driver/MPU6050_STM32F4_Drivers&apos;" element1="/Motion_Module_test/Drivers/STM32F4xx_HAL_Driver/MPU6050_STM32F4_Drivers" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1685042021051"/>
+</session>

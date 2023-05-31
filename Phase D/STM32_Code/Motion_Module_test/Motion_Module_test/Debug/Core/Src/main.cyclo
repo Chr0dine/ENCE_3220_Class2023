@@ -1,0 +1,9 @@
+main.c:80:5:main	3
+main.c:151:6:SystemClock_Config	3
+main.c:197:13:MX_I2C1_Init	2
+main.c:231:13:MX_TIM2_Init	4
+main.c:276:13:MX_GPIO_Init	1
+main.c:438:6:getAccelAverage	2
+main.c:457:5:AccelDataEqual	5
+main.c:471:6:HAL_GPIO_EXTI_Callback	2
+main.c:489:6:Error_Handler	1
